@@ -1,0 +1,33 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"node": true
+	},
+	"globals": {
+		"expect": true
+	},
+	"extends": ["airbnb-base", "prettier", "plugin:vue/recommended"],
+	"plugins": ["vue", "prettier"],
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"rules": {
+		"prettier/prettier": ["error"],
+		"vue/html-closing-bracket-newline": [
+			"error",
+			{
+				"multiline": "never"
+			}
+		],
+		"no-use-before-define": [
+			2,
+			{
+				"functions": false
+			}
+		],
+		"prefer-const": 1,
+		"complexity": [1, 9]
+	}
+}
