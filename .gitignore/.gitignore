@@ -1,0 +1,13 @@
+.inetu
+.project
+.*.swp
+.*.swo
+*.sublime-project
+*.sublime-workspace
+*.sql
+.DS_Store
+node_modules
+*.log
+*.code-workspace
+package-lock.json
+composer.lock
